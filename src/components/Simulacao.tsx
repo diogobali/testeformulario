@@ -56,7 +56,7 @@ export function Simulacao() {
 
     function valorX(){
 
-        var valor = document.getElementById("outrovalor").value;
+        var valor = (document.getElementById('outrovalor') as HTMLInputElement).value;
         console.log(valor);
         showParcelas();
     }
