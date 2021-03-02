@@ -216,17 +216,7 @@ export function Simulacao() {
                         <button type="submit" onClick={valorX}className={styles.buttonContinuar}> Continuar </button>
                          
                     </div>
-                    <div className={styles.formularioFinal}>
-                            <form>
-                                
-                                <label>Nome Completo: *</label><input></input>
-                                <p>
-                                <label>Telefone *</label><input></input>
-                                </p>
 
-                            </form>
-
-                    </div>
                 </div>
                 <div className={styles.rightContainer}>
                     <img src="/img/dinheiro.png" />
