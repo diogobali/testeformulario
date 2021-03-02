@@ -1,0 +1,60 @@
+
+.Menu div {
+    display:flex;
+    background: var(--gray-line);
+    height: 4rem;
+    font-size: 2rem; 
+   
+ 
+    
+
+
+}
+
+.Menu img {
+    max-width: 20rem;
+    max-height: 20rem;
+    width: auto;
+    height: auto;
+}   
+
+
+.menuDiv {
+
+display:flex;
+justify-content: space-between;
+
+
+
+
+}
+
+
+.Menu nav {
+    margin-right: 2rem;
+    font-size: 1rem;
+    display:inline;
+    padding: 1.2rem;
+
+    
+
+}
+
+.Menu a{
+    padding: 1.2rem;    
+    color: var(--green);
+    border-color: transparent;
+    border-radius: 0.125rem;
+    border-style:solid;
+}
+
+.Menu a:hover{
+    background-color:#595a5c;
+
+}
+
+.imgSection {
+    padding:1rem;
+
+
+}

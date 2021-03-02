@@ -1,0 +1,243 @@
+.Simulacao {
+    background-color:var(--gray-line);
+    height:30rem;
+    display: flex;
+
+}
+
+.container{
+    display:flex;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    width:100%;
+    justify-content: space-between;
+}
+
+
+.leftContainer{
+     max-width:50%;
+     align-items: flex-start;
+    
+}
+
+.subtitulo {
+    margin-top: 6rem;
+    
+}
+
+.subtitulo p {
+    margin-top: 0.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
+.Simulacao button{
+    border-radius:0.2rem;
+    font-size: 1.3rem;
+    padding: 0rem;
+    text-size-adjust: 100%;
+    display:flex;
+    justify-content: center;
+    font-weight: 700;
+    line-height: 1.5rem;
+    cursor:pointer;
+    position:relative;
+    height:3rem;
+    user-select:none;
+    text-transform: uppercase;
+    margin: 12px 12px 12px 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.buttonContainer{
+    display:flex;   
+    margin-top:4rem;    
+    font-size:1rem; 
+    flex-direction: column;
+    max-width: 40rem;
+    align-items:baseline;
+    
+    
+
+}
+
+.buttonContainer2{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.buttonContainer2 button{
+    width: 8rem;
+    background-color:teal;
+    padding: 2rem;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color:white;
+}
+
+.buttonContainer2 button:hover{
+    background-color:#008283;
+    color: var(--gray-line);
+}
+
+.parcelasContainer{  
+    margin-top:4rem;    
+    font-size:1rem; 
+    flex-direction: column;
+    max-width: 40rem;
+    align-items:baseline;
+    display:none;
+    
+    
+
+}
+
+.parcelasContainer2{
+    display:none;
+    justify-content: space-between;
+
+    
+}
+
+.parcelasContainer2 input{
+    border-radius:0.2rem;
+    height:3rem;
+    margin-left:0.5rem;
+    line-height: 3rem;;
+    font-size: 1.5rem;
+    width:12rem;
+    margin-top:2rem;
+    margin-left:1rem;
+    
+}
+
+.parcelasContainer2 label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    color:teal;
+    margin-top:2rem;
+    
+}
+
+.parcelasContainer2 button{
+    width: 8rem;
+    background-color:teal;
+    padding: 2rem;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color:white;
+}
+
+.parcelasContainer2 button:hover{
+    background-color:#008283;
+    color: var(--gray-line);
+}
+
+
+
+
+
+.rightContainer {
+    display:flex;       
+    background-color: var(--gray-line);
+    max-width:50%;
+    align-items: center;
+    align-content:center;
+
+}
+
+.rightContainer img {
+    width: 20rem;
+    height: 15rem;
+    align-items:center;
+}
+
+.outroValorDiv{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:1rem;
+    display:flex;
+    visibility: hidden;
+    align-items:center;
+    
+}
+
+.outroValorDiv input{
+    border-radius:0.2rem;
+    height:2rem;
+    margin-left:0.5rem;
+    
+}
+
+.divCifrao{
+    margin-left:2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+
+.divCifrao strong{
+    font-size: 1.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+.buttonContinuar{
+    width: 8rem;
+    background-color:teal;
+    padding: 2rem;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color:white;
+}
+
+.buttonContinuar:hover{
+    background-color:#008283;
+    color: var(--gray-line);
+}
+
+
+.buttonFinalizar{
+    display:flex;
+    font-size:2rem;
+    margin-top:1rem;
+    align-self:center;
+    text-align:center;
+    justify-content: center;
+
+}
+
+.buttonFinalizar button{
+    background-color:teal;
+    padding:1rem;   
+    width:16rem;
+    font-size:1.2rem;
+    height:3rem;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+
+}
+
+.buttonFinalizar button:hover{
+
+    color:black;
+    background-color:lightblue;
+
+}

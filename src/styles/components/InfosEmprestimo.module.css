@@ -1,0 +1,69 @@
+.InfosEmprestimo {
+    background-color:teal;
+    box-sizing:border-box;
+}
+
+.container {
+    margin-left:12rem;
+    margin-right:12rem;
+    background-color:teal;
+    height:30rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+
+
+}
+
+.containerItems{
+    display:flex;
+    gap:7rem;
+    text-align:center;
+    align-items:center;
+
+
+}
+
+.containerItems img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.containerItems p {
+    color:white;
+    
+}
+
+.divImg {
+    max-width:300px;
+    align-self:flex-start;
+}
+
+.buttonSimular{
+    text-align:center;
+    padding-bottom:2rem;
+    width:100%;
+
+}
+
+.buttonSimular a{
+    background-color:lightblue;
+    padding:1rem;
+    border-radius:0.5rem;
+    display:inline-block;
+    color:black;
+}
+
+.buttonSimular a:hover{
+    color:white;
+}
+
+.titulo{
+    align-content:center;
+    color:white;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    padding-top:2rem;
+}
