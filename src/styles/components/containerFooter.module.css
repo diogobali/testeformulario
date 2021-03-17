@@ -1,0 +1,91 @@
+.containerFooter{
+    background-color:lightblue;
+    line-height: 1.5rem;
+    padding:4rem;
+}
+
+.containerFooter h1{
+    font-family:Arial;
+    font-size: 2rem;
+    margin-bottom:3rem;
+
+}
+
+.containerFooterDesc p{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color:lightblue;
+    margin-top:1.5rem;
+}
+
+.containerFooterLinks{
+    align-items:flex-end;
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    background-color:lightblue;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.navFooter {
+    display:flex;
+    
+}
+
+.ulFooter {
+    display:flex;
+    padding:2rem;
+    text-align:center;  
+    
+    
+}
+
+.ulFooter li {
+    margin-left:2rem;
+    display:flex;
+    border-radius: 0.5rem 0.5rem 0.5rem;
+    background-color:green;
+    padding:1rem;
+    color:white;
+    font-family: arial;
+    
+}
+
+.ulFooter li:hover {
+    background-color:darkgreen;
+
+    
+}
+
+.containerFooterContato{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:2rem;
+
+
+    
+}
+
+.containerFooterContato li{
+    padding:0.3rem;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    margin-top:0.6rem;
+
+}
+
+.containerFooterContato li img{
+    width:2rem;
+    height:2rem;
+    
+}
+
+.containerFooterContato img {
+    width:14rem;
+    height:10rem;
+}

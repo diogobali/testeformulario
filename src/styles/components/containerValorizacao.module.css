@@ -1,0 +1,122 @@
+.containerValorizacao{
+    display:flex;
+    justify-content: flex-end;
+    height:80vh;
+    text-align: end;
+    padding: 2vh;
+    max-width: 100%;
+   
+   
+    background-color:#ecf2ff;
+    background-image: url('/img/fundoJuros.png');   
+    background-repeat:no-repeat;
+    background-size:contain;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.containerValorizacao img {
+    max-height:100%;
+    margin-right:4rem;
+    display:none;
+}
+
+
+.rightContainer {
+    display:flex;
+    justify-content: space-around;
+    text-align:center;
+    flex:1;
+    flex-direction: column;
+    margin-right: 1.5rem;
+
+}
+
+.rightContainer h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    padding:2rem;
+    color: #001c8d;
+    text-align: center;
+    justify-content: start;
+    margin-bottom:2rem;
+}
+
+.rightContainer p {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:start;
+    line-height: 2rem;
+    font-size:1.2rem;
+    margin-left:2rem;
+    
+
+}
+
+
+
+.leftContainer h1{
+    display:block;
+    justify-content: initial;
+    text-transform:uppercase;
+    font-family: impact;
+    color:#001c8d;
+    
+}
+
+.leftContainer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top:2rem;
+    color:black;
+}
+
+.rightContainer a {
+    align-self:flex-start;
+    font-family: impact;
+    background-color:#001c8d;
+    color:white;
+    text-transform: uppercase;
+    padding:1rem;
+    border-radius: 0.5rem 0.5rem 0.5rem;
+    width:15rem;
+    text-align: center;
+    font-size:1.5rem;
+    margin-top:2rem;
+}
+
+.leftContainer a:hover {
+    background-color:darkgreen;
+}
+
+@media(max-width:1200px){
+    .containerValorizacao{
+        height:auto;
+    }
+
+    .containerValorizacao img {
+        max-height:100%;
+        margin-right:3rem;
+        width:27rem;
+        height:20rem;
+    }
+}
+
+@media(max-width:700px){
+    .rightContainer{
+        display:none;
+    }
+
+    .containerValorizacao{
+        justify-content: center;
+        
+    }
+    .leftContainer{
+        padding:2rem;
+        margin-left:0;
+        margin:auto;
+        width:auto;
+    }
+}

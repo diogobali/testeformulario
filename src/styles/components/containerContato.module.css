@@ -1,0 +1,89 @@
+.ContainerContato{
+    padding: 4rem;
+    background-color:whitesmoke;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    text-align: center;
+    
+    
+
+
+    
+
+}
+
+.ContainerContato h1{
+    text-align:center;
+    margin-bottom:2rem;
+    color:black;
+    font-family:impact;
+    text-transform:uppercase;
+}
+
+.ContainerContato h3{
+    text-align:center;
+    font-family: Arial;
+    color:black;
+    margin-bottom:2rem;
+    margin-top:1rem;
+}
+
+.ContainerContato span{
+    color:white;
+    font-family:Arial;
+    background-color:green;
+    padding:0.7rem;
+    border-radius:1rem;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.ContainerContato img {
+    width:10rem;
+    height:15rem;
+}
+
+.ContainerContatoImg {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.ContainerContatoImg img {
+    width:2rem;
+    height:2rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    
+}
+
+.rightContainer{
+    display:block;
+    margin:auto;
+}
+
+.leftContainer {
+    align-items:flex-end;
+    justify-content: flex-end;
+    display:flex;
+    background-image: url("/img/pensativo.png");
+    background-color:white;
+    background-size:5rem;
+    
+    
+}
+
+.leftContainer img{
+
+
+    display:flex;
+ 
+
+
+}

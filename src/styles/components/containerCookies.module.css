@@ -1,0 +1,40 @@
+.containerCookies {
+    display:flex;
+    align-items:flex-start;
+    height:4rem;
+    width:100%;
+    position:sticky;
+    flex-wrap: wrap;
+    padding:1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:black;
+    color:white;
+    text-align:flex-start;
+    justify-content: space-evenly;
+
+}
+
+.containerCookies button {
+    height:2rem;
+    width:8rem;
+    margin:auto;
+    background-color:#4c83ff;
+    color:white;
+    font-weight: 600;
+    border-radius: 5rem;
+}
+
+.containerCookies p {
+    display:block;
+    justify-content: flex-start;
+}
+
+.containerCookies a {
+    cursor:pointer;
+    color:#4c83ff;
+}

@@ -1,33 +1,29 @@
-import styles from '../styles/components/Menu.module.css';
+import styles from '../styles/components/Menu.module.css'
 
 export function Menu() {
     return (
-        <header className={styles.Menu}>
-    
-               
-            <div className={styles.menuDiv}>
-                <div className={styles.imgSection}>
-                    <img src="/img/logo.png" />
-                </div>
+        
+            <div className={styles.menu}>
+        
+        <input type="checkbox" className={styles.btMenu} id="bt_Menu" />  
+        <label htmlFor="bt_Menu" className={styles.labelMenu}>&#9776;</label>
 
-                <nav>
-                    <strong>
-                        <a href="google.com">Google</a>
-                        <a href="globo.com">Google</a>
-                        <a href="nike.com">Globo</a>
-                        <a href="adidas.com">Sobre nós</a>
-                        <a href="cleber">Atendimento</a>
-                        <a href="globo.com">Globo</a>
-                        <a href="globo.com">Globo</a>  
-                 </strong>
-                </nav>
+        <nav className={styles.navMenu}>
+            <ul className={styles.ulMenu}>
+                <li><a href="/">Sobre</a></li>     
+                <li><a href="#ContainerContato">Contato</a></li>
+                <li><a href="#containerParceiros">Parceiros</a></li>
+                <li><a href="termos-de-uso">Termos de Uso</a></li>
+                <li id="simularli"><a href="simulacao">Simulação</a></li>
+            </ul>
+        </nav>
+
+  
+       
+        </div>
         
 
-            </div>
-        </header>
 
-
+        
     );
-
-
-}
+}       

@@ -1,0 +1,45 @@
+
+
+.SimulacaoFooter{
+    background-color:whitesmoke;
+    width:100%;
+    height:auto;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;;
+    text-transform: uppercase;
+}
+
+
+.SimulacaoFooter img {
+    width:300px;
+    height:200px;
+}
+
+.containerFooter{
+    padding:4rem;
+    display:flex;
+    justify-content:center;
+    gap:10rem;
+    text-align:center;
+    flex-wrap:wrap;
+    align-items:center;
+
+}
+
+.containerFooter p {
+    text-align:start;
+    justify-content: center;
+    font-family:arial;
+    color:black;
+
+
+}
+
+.containerFooter strong {
+    color:darkgreen;
+    font-size:2rem;
+    font-family:impact;
+    line-height:3rem;
+
+
+}

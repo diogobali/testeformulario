@@ -1,21 +1,34 @@
-import { Simulacao } from "../components/Simulacao";
-import { ExperienceBar } from "../components/ExperienceBar";
-import { Profile } from "../components/Profile";
-import { Menu } from "../components/Menu";
+
 import styles from '../styles/pages/Home.module.css';
-import { InfosEmprestimo } from "../components/InfosEmprestimo";
-import { Apresentacao } from "../components/Apresentacao";
-import { InfosEmprestimo2 } from "../components/InfosEmprestimo2";
+import { Menu } from '../components/Menu';
+import { ContainerSimulacao } from '../components/containerSimulacao'
+import { ContainerValorizacao } from '../components/ContainerValorizacao'
+import { ContainerPassos } from '../components/ContainerPassos'
+import { ContainerParceiros } from '../components/ContainerParceiros'
+import { ContainerFooter } from '../components/ContainerFooter'
+import { OverMenu } from '../components/OverMenu'
+import { ContainerContato } from '../components/ContainerContato'
+import { AvisoTop } from '../components/AvisoTop';
+import { ContainerCookies } from '../components/ContainerCookies';
+
+
 
 export default function Home() {
   return (
     <body>
     <div>
-      <Menu />
-      <Simulacao />
-      <InfosEmprestimo />
-      <Apresentacao />
-      <InfosEmprestimo2 />
+    <AvisoTop />
+    <Menu />
+    <ContainerSimulacao />
+      
+     
+      <ContainerValorizacao />
+      <ContainerPassos />
+      <ContainerContato />
+      <ContainerParceiros />
+      <ContainerFooter />
+      <ContainerCookies />
+
     </div>
     </body>
   )

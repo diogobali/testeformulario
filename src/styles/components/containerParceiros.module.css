@@ -1,0 +1,45 @@
+.containerParceiros {
+
+    text-align:center;
+    height:auto;
+    padding:4rem;
+    justify-content: center;
+    align-items:center;
+
+}
+
+
+.containerParceiros h1{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.imgParceiros {
+    display:flex;
+    
+    align-items:center;
+    flex-wrap:wrap;
+    max-width:1000px;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+
+
+    
+}
+
+.imgParceiros > div {
+    flex: 1 1 5px;
+    display:flex;
+    margin: 10px 30px;
+   
+    
+
+
+}
+
+.imgParceiros img{
+    width:auto;
+    height:auto;
+}

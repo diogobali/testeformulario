@@ -1,0 +1,16 @@
+.OverMenu{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    padding:2rem;
+    text-align: center;
+    
+
+
+}
+
+.OverMenu img {
+    width:4rem;
+    height:4rem;
+    margin-right:5rem;
+}
