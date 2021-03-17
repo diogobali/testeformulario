@@ -20,9 +20,9 @@ export function TesteForm(){
                
                 const target = event.target
 
-                const email = document.querySelector('input[name=email]')
-                const name = document.querySelector('input[name=name]')
-                const message = document.querySelector('textarea[name=message]')
+                const email = (document.querySelector('input[name=email]') as HTMLInputElement)
+                const name = (document.querySelector('input[name=name]') as HTMLInputElement)
+                const message = (document.querySelector('textarea[name=message]') as HTMLInputElement)
 
 
                 try {
@@ -48,7 +48,11 @@ export function TesteForm(){
                     
                     console.error(e)
 
-                }
+                } 
+
+                console.log(name.value)
+                console.log(email.value)
+                console.log(message.value)
 
                 
                 
