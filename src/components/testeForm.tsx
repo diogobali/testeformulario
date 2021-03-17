@@ -20,9 +20,9 @@ export function TesteForm(){
                
                 const target = event.target
 
-                const email = target.querySelector('input[name=email]')
-                const name = target.querySelector('input[name=name]')
-                const message = target.querySelector('textarea[name=message]')
+                const email = document.querySelector('input[name=email]')
+                const name = document.querySelector('input[name=name]')
+                const message = document.querySelector('textarea[name=message]')
 
 
                 try {
