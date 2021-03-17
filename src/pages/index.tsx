@@ -1,7 +1,7 @@
 
 import styles from '../styles/pages/Home.module.css';
 import { Menu } from '../components/Menu';
-import { ContainerSimulacao } from '../components/containerSimulacao'
+import { ContainerSimulacao } from '../components/ContainerSimulacao'
 import { ContainerValorizacao } from '../components/ContainerValorizacao'
 import { ContainerPassos } from '../components/ContainerPassos'
 import { ContainerParceiros } from '../components/ContainerParceiros'
